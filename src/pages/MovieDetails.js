@@ -39,17 +39,25 @@ class MovieDetails extends Component {
     const { title, storyline, imagePath, genre, rating, subtitle } = movie;
 
     return (
-      <div data-testid="movie-details">
-        <img alt="Movie Cover" src={`../${imagePath}`} />
-        <h4>{`Title: ${title}`}</h4>
-        <p>{`Subtitle: ${subtitle}`}</p>
-        <p>{`Storyline: ${storyline}`}</p>
-        <p>{`Genre: ${genre}`}</p>
-        <p>{`Rating: ${rating}`}</p>
-        <div>
-          <Link to={`/movies/${id}/edit`}>EDITAR</Link>
-          <Link to="/">VOLTAR</Link>
-          <Link to="/" onClick={() => deleteMovie(id)}>DELETAR</Link>
+      <div className="details-container">
+        <div className="movie-details" data-testid="movie-details">
+          <div className="img-cont">
+            <img alt="Movie Cover" src={`../${imagePath}`} />
+          </div>
+          <div className="movie-info">
+            <h4 className="movie-title">{`Title: ${title}`}</h4>
+            <p className="movie-subtitle">{`Subtitle: ${subtitle}`}</p>
+            <p className="movie-storyline">{`Storyline: ${storyline}`}</p>
+            <p className="movie-genre">{`Genre: ${genre}`}</p>
+            <div className="rating">
+              <p className="movie-rate">{`Rating: ${rating}`}</p>
+            </div>
+          </div>
+        </div>
+        <div className="movie-links">
+          <Link className="movie-edit" to={`/movies/${id}/edit`}>EDITAR</Link>
+          <Link  className="movie-back"to="/">VOLTAR</Link>
+          <Link  className="movie-delete" to="/" onClick={() => deleteMovie(id)}>DELETAR</Link>
         </div>
       </div>
     );
