@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/Block13-Project_MovieCard_CRUD/static/css/main.797648b3.chunk.css",
+    "main.js": "/Block13-Project_MovieCard_CRUD/static/js/main.d91ec53c.chunk.js",
+    "main.js.map": "/Block13-Project_MovieCard_CRUD/static/js/main.d91ec53c.chunk.js.map",
+    "runtime-main.js": "/Block13-Project_MovieCard_CRUD/static/js/runtime-main.28784db1.js",
+    "runtime-main.js.map": "/Block13-Project_MovieCard_CRUD/static/js/runtime-main.28784db1.js.map",
+    "static/js/2.40e48109.chunk.js": "/Block13-Project_MovieCard_CRUD/static/js/2.40e48109.chunk.js",
+    "static/js/2.40e48109.chunk.js.map": "/Block13-Project_MovieCard_CRUD/static/js/2.40e48109.chunk.js.map",
+    "index.html": "/Block13-Project_MovieCard_CRUD/index.html",
+    "precache-manifest.acc65ee9922240167de7c2a843a2741b.js": "/Block13-Project_MovieCard_CRUD/precache-manifest.acc65ee9922240167de7c2a843a2741b.js",
+    "service-worker.js": "/Block13-Project_MovieCard_CRUD/service-worker.js",
+    "static/css/main.797648b3.chunk.css.map": "/Block13-Project_MovieCard_CRUD/static/css/main.797648b3.chunk.css.map",
+    "static/js/2.40e48109.chunk.js.LICENSE.txt": "/Block13-Project_MovieCard_CRUD/static/js/2.40e48109.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/Block13-Project_MovieCard_CRUD/static/media/movie-icon.7790a393.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.28784db1.js",
+    "static/js/2.40e48109.chunk.js",
+    "static/css/main.797648b3.chunk.css",
+    "static/js/main.d91ec53c.chunk.js"
+  ]
+}
