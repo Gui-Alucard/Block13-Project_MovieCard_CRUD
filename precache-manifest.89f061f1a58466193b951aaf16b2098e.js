@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "34cc2400af812f3869161eee85952cbb",
+    "revision": "768ddf6030a4721dbdf74d4ef064c837",
     "url": "/Block13-Project_MovieCard_CRUD/index.html"
   },
   {
-    "revision": "1a3962025adc5c52cfd7",
-    "url": "/Block13-Project_MovieCard_CRUD/static/css/main.797648b3.chunk.css"
+    "revision": "71ea2edf863bedff9e29",
+    "url": "/Block13-Project_MovieCard_CRUD/static/css/main.953701c8.chunk.css"
   },
   {
     "revision": "3bec86b85242d97b53ff",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Block13-Project_MovieCard_CRUD/static/js/2.40e48109.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "1a3962025adc5c52cfd7",
-    "url": "/Block13-Project_MovieCard_CRUD/static/js/main.baf06349.chunk.js"
+    "revision": "71ea2edf863bedff9e29",
+    "url": "/Block13-Project_MovieCard_CRUD/static/js/main.c95484a4.chunk.js"
   },
   {
     "revision": "a7f053307b6df932d541",
